@@ -6,13 +6,10 @@
 </head>
 <body>
     <script>
-let a = parseInt(prompt("Введите число а"));
-if(a>1){
-alert("а больше 1");
-}
-else{
-alert("а не больше 1");
-}
+    let a = prompt("Загадайте слово");
+    let b = a;
+    document.write(b);
+
    </script>
 </body>
 </html>
