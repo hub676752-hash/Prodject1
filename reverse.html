@@ -1,0 +1,34 @@
+<DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Разворот сроки и палиндром</title>
+
+</head>
+<body>
+    <script>
+        let rev = () => { 
+        let str1 = prompt("введите слово");
+        let str2 =  str1.split("").reverse().join("");
+        alert(str2);
+        }
+        
+        rev();
+
+
+
+    let palin = () => {
+        let str1 = prompt("Введите слово");
+        let str2 =  str1.split("").reverse().join("");
+        if(str1 === str2){
+            alert(str2 + " палиндром ");
+        }
+        else {
+            alert(str2 + " не палиндром " + str1)
+        }
+    }
+    palin();
+
+    </script>
+</body>
+</html>
